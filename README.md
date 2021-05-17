@@ -21,30 +21,30 @@ https://codepen.io/K-SY/pen/PopNrZE
     padding: 0;
 }
 
-.benefit-heightlight {
+.benefit-highlight {
     padding: 48px 50px;
 }
 
-.benefit-heightlight__wrapper {
+.benefit-highlight__wrapper {
     margin-top: 24px;
     display   : flex;
 }
 
-.benefit-heightlight__item {
+.benefit-highlight__item {
     width: calc((100%-100px - (3-1) *20px) /3);
 }
 
-.benefit-heightlight__item:not(:last-child) {
+.benefit-highlight__item:not(:last-child) {
     margin-right: 20px;
 }
 
-.benefit-heightlight__img {
+.benefit-highlight__img {
     margin-right: 10px;
     width       : 80px;
     height      : 80px;
 }
 
-.benefit-heightlight__title {
+.benefit-highlight__title {
     margin-top : 14px;
     font-size  : 20px;
     font-weight: bold;
@@ -52,12 +52,12 @@ https://codepen.io/K-SY/pen/PopNrZE
     color      : var(--black);
 }
 
-.benefit-heightlight__list {
+.benefit-highlight__list {
     text-decoration: none;
 }
 
-.benefit-heightlight__list-item {
+.benefit-highlight__list-item {
     font-size  : 14px;
     line-height: 1.43;
     color      : var(--color-gray-darker);
-}```
+}
